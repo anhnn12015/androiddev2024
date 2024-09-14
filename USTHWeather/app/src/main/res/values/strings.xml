@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">USTHWeather</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mon">Mon</string>
+    <string name="Tues">Tues</string>
+    <string name="Wed">Wed</string>
+    <string name="Thur">Thur</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
+    <string name="Partlycloudy">Partly Cloudy\n23C - 35C</string>
+    <string name="Snowers">Snowers\n24C - 30C</string>
+    <string name="Rain">Rain\n22C - 23C</string>
+    <string name="ScatteredSnowers">Scattered Snowers\n22C - 27C</string>
+    <string name="MostlyCloudy">Mostly Cloudy\n22C - 30C</string>
+    <string name="Thunderstorms">Thunderstorms\n25C - 28C</string>
+    <string name="Scatteredthunderstorms">Scattered Thunderstorms\n24C - 27C</string>
+    <string name="Icon">icon</string>
+    <string name="Weather_icon">Weather icon</string>
+    <string name="Sunny">Sunny</string>
+    <string name="Snowy">Snowy</string>
+    <string name="Cloudy">Cloudy</string>
+
+
+    <string name="Hanoi">Hanoi</string>
+
+</resources>
