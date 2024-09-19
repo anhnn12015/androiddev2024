@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="tab_hanoi">HANOI, VIETNAM</string>
+    <string name="tab_paris">PARIS, FRANCE</string>
+    <string name="tab_toulouse">TOULOUSE, FR</string>
+    <string name="weather_cloudy">Nhiều mây</string>
+    <string name="weather_sunny">Nắng</string>
+    <string name="weather_rain">Mưa</string>
+
+    <string name="_31c_sunny">31C Sunny</string>
+    <string name="_31c_sunny1">31C Sunny</string>
+</resources>

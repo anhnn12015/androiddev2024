@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C8E6C9"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/weather_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12C"
+        android:textSize="24sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/weather_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloudy"
+        android:textSize="18sp"
+        android:layout_below="@id/weather_temperature"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paris"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/weather_icon"
+        android:textColor="#000" />
+
+</RelativeLayout>
