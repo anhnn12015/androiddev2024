@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/frame_9" <!-- Sử dụng ảnh frame.9.png làm nền -->
+    >
+
+    <!-- Temperature Text -->
+<TextView
+android:id="@+id/tempTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="12C"
+android:textSize="36sp"
+android:textColor="#000"
+android:layout_alignParentStart="true"
+android:layout_marginTop="8dp"/>
+
+    <!-- Weather condition Text -->
+<TextView
+android:id="@+id/conditionTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Cloudy"
+android:textSize="18sp"
+android:layout_below="@id/tempTextView"
+android:layout_alignParentStart="true"
+android:textColor="#000"/>
+
+    <!-- City Text -->
+<TextView
+android:id="@+id/cityTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Paris"
+android:textSize="18sp"
+android:layout_alignParentEnd="true"
+android:layout_marginEnd="8dp"
+android:layout_marginTop="8dp"
+android:textColor="#000"/>
+
+    <!-- Weather Icon -->
+<ImageView
+android:id="@+id/weatherIcon"
+android:layout_width="120dp"
+android:layout_height="120dp"
+android:src="@drawable/cloudy"
+android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
